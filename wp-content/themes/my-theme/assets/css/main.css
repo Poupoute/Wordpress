@@ -1,0 +1,440 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: #333;
+  font-family: 'Dosis',sans-serif;
+  margin : 0;
+  padding: 0;
+}
+
+/*HEADER*/
+header{
+	background-color: #395e1b;
+	font-size: 2.5rem;
+	justify-content: space-between;
+	display: flex;
+	align-items: center;
+}
+header ul li{
+	list-style-type: none;
+	color: white;
+}
+.menu-menu-principal-container a {
+	color: white;
+	font-size: 2rem;
+	padding-left: 1rem;
+	text-decoration: none;
+}
+
+header ul{
+	display: flex;
+	padding-right: 30px;
+}
+
+p{
+	margin: 0;
+	padding: 0;
+}
+
+/*BANNER*/
+.banner{
+	display: block;
+	align-items: center;
+	justify-content: center;
+	line-height: 8rem;
+  background-size: cover;
+}
+
+.banner_contenu{
+  padding-top: 10vh;
+}
+
+.banner_baseline{
+	font-size: 2rem;
+	text-align: center;
+}
+
+.banner_title_brown{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 4rem;
+	text-align: center;
+  color: #615858;
+}
+
+.banner_title_green{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 4rem;
+	color: #0d7619;
+	text-align: center;
+}
+
+.banner a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+	font-size: 1.8rem;
+	background-color: #395e1b;
+	padding: 1.5rem;
+	border-radius: 5rem;
+}
+
+.banner_register_link {
+	padding-bottom: 6rem;
+	margin-top: 3rem;
+	text-align: center;
+	justify-content: center;
+	position: center;
+}
+
+/*CONFERENCE*/
+.conference{
+  padding-top: 10vh;
+}
+
+.conference_title{
+  margin-bottom: 5vh;
+  text-transform: uppercase;
+	font-weight: bold;
+	font-size: 4rem;
+	text-align: center;
+  color: #615858;
+  margin: auto;
+  width: 15%;
+  border-bottom: solid 2px gray;
+}
+
+.conference_title:before{
+  position: relative;
+  content: '';
+	height: 0.1rem;
+	bottom: 0;
+	background-color: #333;
+}
+
+.conference_content{
+  padding-bottom: 5vh;
+  justify-content: center;
+  text-align: center;
+  font-size: 2rem;
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.conference_background_image{
+  background-size: cover;
+}
+/*PROGRAMME JU*/
+ .programme_title{
+  text-align: center;
+  margin-top: 5vh;
+  font-size: 5rem;
+  margin: auto;
+  width: 15%;
+  border-bottom: solid 2px gray;
+}
+
+.programme_display{
+  width: 80%;
+  margin: auto;
+  padding-top: 5vh;
+  display: flex;
+}
+
+  .programme_gauche{
+    font-size: 2rem;
+    margin-right: 1vh;
+  }
+
+.heures{
+  font-weight: bold;
+}
+
+    .programme_droit{
+      padding-left: 30%;
+      font-size: 2rem;
+      margin-left: 1vh;
+    }
+
+.programme_title_green{
+  margin-bottom: 5%;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #395e1b;
+  text-transform: uppercase;
+}
+
+.programme_title_green_copie{
+  margin-bottom: 5%;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #395e1b;
+  text-transform: uppercase;
+}
+
+.programme_background_image{
+  margin-left: 75%;
+}
+
+/*ORATEURS*/
+  .orateurs_title_gray{
+  margin-bottom: 10vh;
+  padding-top: 10vh;
+  text-align: center;
+  font-size: 5rem;
+  margin: auto;
+  width: 15%;
+  border-bottom: solid 2px gray;
+}
+
+.orateurs_baseline{
+  margin-bottom: 10vh;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.orateurs_personne{
+  display: flex;
+  background-color: green;
+}
+/*/ORATEURS*/
+/*INFORMATION PRATIQUE*/
+.informations_pratiques{
+}
+
+.informations_title_gris{
+  width: 25%;
+  margin: auto;
+  padding-top: 10vh;
+  text-align: center;
+  font-size: 5rem;
+  border-bottom: solid 2px gray;
+}
+
+.info_fond{
+  height: 100%;
+  margin-top: 5%;
+}
+
+.fond_vert{
+  width: 15%;
+  padding: 10vh 5vh 0vh 5vh;
+  margin-left: 20vh;
+  color: white;
+  font-size: 2rem;
+  background-color: green;
+  text-align: left;
+}
+
+.icone1{
+  height: 15vh;
+  display: flex;
+  border-bottom: solid 2px;
+}
+
+.information_position{
+  width: 100%;
+  margin-top: 2vh;
+  margin-left: 5vh;
+  background-repeat: no-repeat;
+}
+
+.icone2{
+  height: 15vh;
+  margin-top: 5vh;
+  display: flex;
+  border-bottom: solid 2px;
+}
+
+.informations_horaires{
+  width: 100%;
+  margin-left: 3vh;
+  background-repeat: no-repeat;
+}
+
+.icone3{
+  height: 15vh;
+  margin-top: 5vh;
+  display: flex;
+}
+
+.information_restauration{
+  width: 100%;
+  margin-left: 5vh;
+  background-repeat: no-repeat;
+}
+
+.information_link_map{
+  width: 100%;
+  height: 3vh;
+  position: relative;
+  top: -10vh;
+  left: 125vh;
+  text-align: center;
+  color: green;
+  background-color: white;
+  border-radius: 20px;
+}
+/*VIDEOS*/
+.videos_title{
+  margin: auto;
+  width: 10%;
+  border-bottom: solid 2px gray;
+  padding-top: 10vh;
+  margin-bottom: 10vh;
+  text-align: center;
+  font-size: 5rem;
+}
+
+.videos_grande{
+  width: 50%;
+  margin: auto;
+ display: flex;
+ justify-content: space-between;
+}
+
+.video_premiere{
+  width: 49%;
+  background-repeat: no-repeat;
+}
+
+.videos_petite{
+  width: 50%;
+  padding-top: 5vh;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.videos_gauche{
+  display: inline;
+}
+
+.videos_display{
+  display: flex;
+  margin-bottom: 5vh;
+}
+
+.video_gauche_premiere{
+  width: 75%;
+}
+
+.videos_texte_presentation{
+  width: 50%;
+  padding-left: 5vh;
+  padding-top: 2vh;
+}
+
+.videos_texte{
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.videos_texte_noms{
+  font-size: 1.5rem;
+}
+
+.videos_droite{
+  margin-right:7vh;
+}
+/*ACTUS*/
+.actus{
+  height: 90vh;
+  background-color: lightgray;
+}
+
+.actu_title{
+  width: 15%;
+  margin: auto;
+  text-align: center;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  font-size: 5rem;
+  border-bottom: solid 2px gray;
+}
+
+.actus_articles{
+  width: 75%;
+  margin: auto;
+  margin-top: 5vh;
+  display: grid;
+  grid-template-columns : 1fr 1fr 1fr 1fr;
+  grid-column-gap : 5vh;
+}
+
+.actu_1{
+  height: 55vh;
+  background-color: white;
+}
+
+.actu_2{
+  height: 55vh;
+  background-color: white;
+}
+
+.actu_3{
+  height: 55vh;
+  background-color: white;
+}
+
+.actu_4{
+  height: 55vh;
+  background-color: white;
+}
+
+.titre_article{
+  width: 50%;
+  padding: 1vh 2vh;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.resume_article{
+  padding: 0vh 2vh 2vh 2vh;
+  font-size: 1.5rem;
+}
+
+.lire_article{
+  text-decoration: none;
+  color: gray;
+  font-size: 1.5rem;
+}
+
+.actus_texte1 a{
+  margin-left: 35%;
+  text-transform: uppercase;
+  border: solid 2px gray;
+  border-radius: 20px;
+}
+
+.date_articles{
+  padding: 2vh 1vh 0vh 0vh;
+  font-size: 1.5rem;
+}
+
+footer{
+  height: 10vh;
+  background-color: gray;
+  color: white;
+}
+
+.footer{
+
+  padding-top: 7vh;
+}
+
+.footer_menu{
+  display:flex;
+  justify-content: space-around;
+  width: 25%;
+}
+
+.footer a{
+  font-size: 2rem;
+  text-decoration: none;
+  color: white;
+}
